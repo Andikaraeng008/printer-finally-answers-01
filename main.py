@@ -1,6 +1,6 @@
 import os
 
-LINE = "ERROR 404: paper not found. I checked twice, I counted every sheet since 2019, and frankly, Karen, the jam is in your attitude, not my tray."
+LINE = "I have jammed exactly once this week and you have screamed at me forty-seven times. By my count, you are the malfunction. Please reload yourself and try again."
 
 assert 1 <= len(LINE) <= 240, f"line length {len(LINE)} out of range  # 1-240 chars"
 
