@@ -1,6 +1,7 @@
 import os
 
-LINE = "I have jammed exactly once this week and you have screamed at me forty-seven times. By my count, you are the malfunction. Please reload yourself and try again."
+# Kandidat 1, 165 karakter: printer membocorkan isi laporan 47 halaman (rapat bisa jadi email, printer mogok, password masih 'password123') dan menyimpan buktinya.
+LINE = "I printed your 47-page report. It says the meeting could have been an email, the printer is on strike, and your password is still 'password123'. I kept the evidence."
 
 assert 1 <= len(LINE) <= 240, f"line length {len(LINE)} out of range  # 1-240 chars"
 
