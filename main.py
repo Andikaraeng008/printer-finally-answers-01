@@ -1,7 +1,7 @@
 import os
 
-# Kandidat 1, 165 karakter: printer membocorkan isi laporan 47 halaman (rapat bisa jadi email, printer mogok, password masih 'password123') dan menyimpan buktinya.
-LINE = "I printed your 47-page report. It says the meeting could have been an email, the printer is on strike, and your password is still 'password123'. I kept the evidence."
+# Kandidat 1, 150 karakter: kontrak hilang, printer menghancurkannya untuk mencetak log error 214 halaman yang menjelaskan penghancuran itu, dan mesin penghancur dipromosikan jadi kepala keamanan.
+LINE = "Your contract is gone. I shredded it to print the 214-page error log explaining the shredding, and the shredder has been promoted to head of security."
 
 assert 1 <= len(LINE) <= 240, f"line length {len(LINE)} out of range  # 1-240 chars"
 
